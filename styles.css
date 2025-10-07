@@ -1,2 +1,17 @@
 
 /* Your CSS Code here. */
+.holder{
+	display:grid;
+	grid-template-columns:repeat(2,100px);
+	grid-template-rows:repeat(2,100px);
+	width:200px;
+	height:200px
+}
+.item{
+	background-color:lightblue;
+	border:1px solid blue;
+	text-align:center;
+	align-items:center;
+	font-size:30px;
+	line-height:100px;
+}
